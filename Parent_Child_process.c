@@ -21,7 +21,7 @@ int main() {
     }
 
     if (p == 0) { //Checking if this is the child
-        execlp("./3122170_3122069_FileProp", "3122170_3122069_FileProp", (char *)NULL);
+        execlp("./FileProp", "FileProp", (char *)NULL);
         //If we reach here, the execlp has failed.
         perror("Error occured.\n");
         return -1;
